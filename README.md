@@ -2,7 +2,7 @@
 
 **\*prosesses**
 
-1. Functions
+1. Describe functions
 2. Contents/Raugh Layout
 3. DB/Tables/Models difinition (ex: user/score/store)
 4. Associations
