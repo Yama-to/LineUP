@@ -12,7 +12,7 @@
 6. Layout definition (PPT?) | Start to develop simple Rails App
 7. Front-end Coding (| Back-end Coding)
 8. Back-end Coding
- 
+
 ---
 9. Refactering
 10. Deploy
