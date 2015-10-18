@@ -7,3 +7,9 @@
 .actions {
   margin-left: -15px;
 }
+
+/*nav bar*/
+.user_name {
+  color: #ccc;
+  padding: 15px 0;
+}
