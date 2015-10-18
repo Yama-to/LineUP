@@ -1,8 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
-=======
     CFPropertyList (2.3.1)
     actionmailer (4.2.3)
       actionpack (= 4.2.3)
@@ -347,17 +345,11 @@ GEM
     webrobots (0.1.1)
     whenever (0.9.4)
       chronic (>= 0.6.3)
->>>>>>> 043eca75c32b99c10ca1fe956be14637fd2144a9
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-
-BUNDLED WITH
-   1.10.6
-=======
   activerecord-session_store
   bootstrap-sass
   bullet
@@ -388,4 +380,3 @@ BUNDLED WITH
   unicorn
   web-console (~> 2.0)
   whenever
->>>>>>> 043eca75c32b99c10ca1fe956be14637fd2144a9
