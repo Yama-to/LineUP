@@ -27,8 +27,9 @@ gem 'bootstrap-sass'
 gem 'twitter-bootswatch-rails', '~> 3.1.1'
 gem 'twitter-bootswatch-rails-helpers'
 # user avatars & thumbnails of prototypes
-gem 'carrierwave'
-gem 'rmagick', require: 'rmagick'
+# gem 'paperclip'
+# gem 'carrierwave'
+# gem 'rmagick', require: 'rmagick'
 # user administrations
 gem 'devise'
 # pagination
