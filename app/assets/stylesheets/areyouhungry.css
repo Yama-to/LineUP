@@ -36,8 +36,14 @@ a.fa {
   font-size: 20px;
 }
 
-.btn {
-    margin-left: 8.5%;
-    margin-right: 8.5%;
+.level {
+  width: 30px;
 }
 
+.qbtn {
+  margin-left: 8%;
+  margin-right: 8%;
+  display: inline;
+  float: left;
+  width: 50px;
+}
