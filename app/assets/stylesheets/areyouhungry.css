@@ -1,0 +1,15 @@
+/*container*/
+.body_container {
+  margin-top: 50px;
+}
+
+/*sign in*/
+.actions {
+  margin-left: -15px;
+}
+
+/*nav bar*/
+.user_name {
+  color: #ccc;
+  padding: 15px 0;
+}
