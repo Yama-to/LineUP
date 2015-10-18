@@ -37,5 +37,13 @@ a.fa {
 }
 
 .level {
-  width: 30px
+  width: 30px;
+}
+
+.qbtn {
+  margin-left: 8%;
+  margin-right: 8%;
+  display: inline;
+  float: left;
+  width: 50px;
 }

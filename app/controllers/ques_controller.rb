@@ -1,6 +1,5 @@
 class QuesController < ApplicationController
   def create
-    binding.pry
     current_user.ques.create(que_params)
     redirect_to root_path
   end
