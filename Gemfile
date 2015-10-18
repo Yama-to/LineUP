@@ -63,3 +63,8 @@ group :development, :test do
   # n+1 alerter
   gem 'bullet'
 end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
