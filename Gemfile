@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -65,5 +63,3 @@ group :development, :test do
   # n+1 alerter
   gem 'bullet'
 end
-
->>>>>>> 043eca75c32b99c10ca1fe956be14637fd2144a9
