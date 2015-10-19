@@ -1,6 +1,6 @@
 <tr id="heading<%= store.id %>">
   <td class="store_name" style="padding: 15px;">
-    <a data-toggle="collapse" data-target="#collapse<%= store.id %>" data-parent="#accordion">
+    <a class="store_name_link" data-toggle="collapse" data-target="#collapse<%= store.id %>" data-parent="#accordion" style="text-decoration: none;">
       <%= store.name %>
       <span class="pull-right">Wait time: <span class="badge level"><%= store.wait_time_is %></span></span>
     </a>
