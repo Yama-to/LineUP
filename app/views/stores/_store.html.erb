@@ -1,15 +1,15 @@
-<tr id="headingOne">
+<tr id="heading<%= store.id %>">
   <td class="store_name" style="padding: 15px;" >
     <%= store.name %>
     <span class="pull-right">Wait time: <span class="badge level"><%= store.wait_time_is %></span></span>
   </td>
   <td class="icon_plus" style="vertical-align: middle;">
-    <a class="fa fa-plus-square-o fa-2x" data-toggle="collapse" data-target="#collapseOne" data-parent="#accordion">
+    <a class="fa fa-plus-square-o fa-2x" data-toggle="collapse" data-target="#collapse<%= store.id %>" data-parent="#accordion">
     </a>
   </td>
 </tr>
 
-<tr id="collapseOne" class="panel-collapse collapse" style="background-color: yellow" style="100%">
+<tr id="collapse<%= store.id %>" class="panel-collapse collapse" style="background-color: yellow" style="100%">
   <td colspan="2" align="center">
     <%= button_to  "small", 'ques', params: {store_id: store.id, level:  2.5}, class: 'btn btn-default qbtn', method: :post %>
     <%= button_to "medium", 'ques', params: {store_id: store.id, level:    8}, class: 'btn btn-default qbtn', method: :post %>
